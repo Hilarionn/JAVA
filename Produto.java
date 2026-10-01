@@ -6,6 +6,7 @@ int codigo;
 float precoAtual;
 int quantidade;
 int order;
+float desccumulativo;
 
 // Métodos
 void aplicarDesconto(float desconto){
@@ -13,25 +14,25 @@ precoAtual -= desconto;
 
     }
 
-void cumulativo (float desccumulativo){
+void cumulativo (int order){
 
     if (order < 10){
-    // desccumulativo = 0;
+        desccumulativo = precoAtual;
         
     }
 
-    if(order >= 10 && order < 20){
+    else if(order >= 10 && order < 20){
         desccumulativo = (precoAtual * 0.10f); //10% do preço do produto
         precoAtual -= desccumulativo;
 
     }
-    if(order >= 20 && order < 30){
+    else if(order >= 20 && order < 30){
         desccumulativo = (precoAtual * 0.20f); //20% do preço do produto
         precoAtual -= desccumulativo;
     }
 
     
-        else{
+        else {
             desccumulativo = (precoAtual * 0.25f);
             precoAtual -= desccumulativo;
         }
