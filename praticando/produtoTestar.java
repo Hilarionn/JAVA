@@ -1,3 +1,5 @@
+package praticando;
+
 public class produtoTestar {
 
 public static void main(String[] args) {

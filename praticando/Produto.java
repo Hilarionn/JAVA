@@ -1,3 +1,4 @@
+package praticando;
 public class Produto{
 
 //atributos
