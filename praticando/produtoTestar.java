@@ -12,7 +12,7 @@ O "produto1" é """"como"""" uma "VAR"
 produto1.nome = "Banana";
 produto1.quantidade = 90;
 produto1.precoAtual = 4.99f;
-/* -- descomente essa linha 
+/*   -- descomente essa linha 
     System.out.println("Produto cadastrado!\nO nome do produto é: " + produto1.nome + 
 ", \nA quantidade em estoque atualmente é: " + produto1.quantidade + " Unidades" + 
 ", \nO preço atual por quilo deste produto é de R$" + produto1.precoAtual);
