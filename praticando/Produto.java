@@ -18,7 +18,7 @@ precoAtual -= desconto;
 void cumulativo (int order){
 
     if (order < 10){
-        desccumulativo = precoAtual;
+        desccumulativo = 0;
         
     }
 
@@ -39,4 +39,5 @@ void cumulativo (int order){
         }
     }
 }
+
 
